@@ -4,14 +4,14 @@ import React from "react";
 import HomePageImage from "../images/Mobile Marketing-bro.png";
 
 // Bootstrap
-import { Container, Col, Row } from "react-bootstrap";
+import { Container, Col, Row, Image } from "react-bootstrap";
 
 function TopSectionHome() {
   return (
     <div className="light-green-background">
       <Container>
         <Row className="justify-content-md-center">
-          <Col xs={6}>
+          <Col lg={6} sm={12}>
             <h1 id="heading-title">
               Cleaning code does <span className="green-text">NOT</span> take
               time. <span className="green-text">NOT</span> cleaning code does
@@ -19,8 +19,8 @@ function TopSectionHome() {
             </h1>
             <p id="quote-author">- Robert C. Martin</p>
           </Col>
-          <Col xs={6}>
-            <img
+          <Col lg={6} sm={12}>
+            <Image
               className="Home-screen-img"
               src={HomePageImage}
               alt="Home-Page-Img"

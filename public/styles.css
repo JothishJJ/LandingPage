@@ -1,0 +1,39 @@
+.Home-screen-img {
+  width: 60rem;
+}
+
+.attribution {
+  color: #234;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.attribution:hover {
+  color: #234;
+  text-decoration: underline;
+}
+
+/* Home-screen */
+
+#heading-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 22rem;
+}
+
+.green-text {
+  color: #467052;
+}
+
+.green-background {
+  background-color: #9eb;
+}
+
+.light-green-background {
+  background-color: #def7e5;
+}
+
+#quote-author {
+  text-align: right;
+  font-size: 1.4rem;
+}
